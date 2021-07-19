@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+*{box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif;} 
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+.font_paci{font-family: 'Pacifico', cursive;}
+
+
+
+#ex_01{}
+#ex_01 .top{height: 30px; background: #000;}
+#ex_01 .top .wrap{width: 1160px; height: 100%; padding: 0 10px; margin: 0 auto; /*background: #ccc;*/ color:#fff; font-size: 14px; }
+#ex_01 .top .wrap .left_info{float: left; padding: 8px 0;}
+#ex_01 .top .wrap .left_info ul{}
+#ex_01 .top .wrap .left_info ul li{float: left; }
+#ex_01 .top .wrap .left_info ul li p{line-height: 1; }
+#ex_01 .top .wrap .left_info ul li:first-child{padding-right: 10px;}
+#ex_01 .top .wrap .left_info ul li p i{padding-right: 10px;}
+
+#ex_01 .top .wrap .right_info{float: right; padding: 8px 0;}
+#ex_01 .top .wrap .right_info ul{}
+#ex_01 .top .wrap .right_info ul li{float: left; padding: 0 10px;}
+#ex_01 .top .wrap .right_info ul li a{display: block; color:#fff; font-size: 14px; line-height: 1;}
+
+#ex_01 .main{height: 66px; background: #eee; background-image: url(../img/1.jpg); background-size: cover; background-position: 50% 50%;}
+#ex_01 .main .dark{background-color: rgba(0,0,0,0.5); height: 100%;}
+#ex_01 .main .dark .wrap{width: 1160px; height: 100%; padding: 0 10px; margin: 0 auto;/* background: #faf;*/}
+#ex_01 .main .dark .wrap .logo{padding: 17px 0; float: left;}
+#ex_01 .main .dark .wrap .logo a{}
+#ex_01 .main .dark .wrap .logo a img{display: block; }
+
+
+#ex_01 .main .dark .wrap .menu{float: right; font-size: 0;}
+#ex_01 .main .dark .wrap .menu ul{display: inline-block; vertical-align: middle;}
+#ex_01 .main .dark .wrap .menu ul li{display: inline-block; }
+#ex_01 .main .dark .wrap .menu ul li a{display: block;  color:#fff; font-size: 16px; 
+    font-weight: bold; line-height: 66px; padding: 0 20px;}
+
+#ex_01 .main .dark .wrap .menu .btn{display: inline-block; vertical-align: middle; padding-left: 55px;}
+#ex_01 .main .dark .wrap .menu .btn a{display: block; padding: 10px 14px; background-color: #ff6600;;color:#fff; font-size: 16px; font-weight: bold; border:1px solid #ff6600; border-radius: 4px;}
+
+#ex_01 .main .dark .wrap .menu ul li:hover a{color:#ff6600;  background-color: rgba(255,255,255,0.6); }
+#ex_01 .main .dark .wrap .menu .btn:hover a{background-color: #fff; color:#ff6600;}
